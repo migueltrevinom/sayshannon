@@ -40,6 +40,7 @@ body {
 
 .sayshannon-logo-pt1 {
     color: $mainColor;
+    margin-bottom: 0px;
 }
 
 .sayshannon-logo-pt2 {
@@ -76,6 +77,10 @@ body {
 
 .no-m-b {
     margin-bottom: 0px !important;
+}
+
+.no-m-t {
+    margin-top: 0px !important;
 }
 
 #first-container {
@@ -132,6 +137,15 @@ body {
 }
 
 #projects-nav:hover>.projects-box {
+    display: block !important;
+}
+
+.contact-box {
+    display: none;
+    margin-top: 20px;
+}
+
+#contact-nav:hover>.contact-box {
     display: block !important;
 }
 
