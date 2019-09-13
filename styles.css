@@ -211,7 +211,7 @@ pre {
 
   .content-box {
     width: 500px;
-    height: 400px;
+    height: 500px;
     padding: 8px; }
 
   p {
@@ -222,9 +222,6 @@ pre {
     line-height: 25px !important; }
 
   #second-container {
-    height: 500px; }
-
-  #second-container .content-box {
-    margin-top: 45px; } }
+    height: 500px; } }
 
 /*# sourceMappingURL=styles.css.map */
