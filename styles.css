@@ -198,9 +198,17 @@ pre {
   cursor: pointer; }
 
 #language-toggle img {
-  margin-top: 10px;
+  margin-top: 13px;
   width: 40px;
   height: 40px; }
+
+#language-toggle-es {
+  cursor: pointer; }
+
+#language-toggle-es img {
+  margin-top: 15px;
+  width: 36px;
+  height: 36px; }
 
 @media (max-width: 992px) {
   .content-box {
