@@ -239,6 +239,16 @@ pre {
     line-height: 18.5714px;
 }
 
+#language-toggle {
+    cursor: pointer;
+}
+
+#language-toggle img {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
 @media (max-width: map-get($breakpoints, md)) {
     .content-box {
         padding: 8px;
