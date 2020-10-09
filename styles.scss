@@ -40,6 +40,7 @@ body {
 
 .sayshannon-logo-pt1 {
     color: $mainColor;
+    margin-bottom: 0px;
 }
 
 .sayshannon-logo-pt2 {
@@ -76,6 +77,10 @@ body {
 
 .no-m-b {
     margin-bottom: 0px !important;
+}
+
+.no-m-t {
+    margin-top: 0px !important;
 }
 
 #first-container {
@@ -132,6 +137,15 @@ body {
 }
 
 #projects-nav:hover>.projects-box {
+    display: block !important;
+}
+
+.contact-box {
+    display: none;
+    margin-top: 20px;
+}
+
+#contact-nav:hover>.contact-box {
     display: block !important;
 }
 
@@ -225,6 +239,26 @@ pre {
     line-height: 18.5714px;
 }
 
+#language-toggle {
+    cursor: pointer;
+}
+
+#language-toggle img {
+    margin-top: 13px;
+    width: 40px;
+    height: 40px;
+}
+
+#language-toggle-es {
+    cursor: pointer;
+}
+
+#language-toggle-es img {
+    margin-top: 15px;
+    width: 36px;
+    height: 36px;
+}
+
 @media (max-width: map-get($breakpoints, md)) {
     .content-box {
         padding: 8px;
@@ -249,7 +283,7 @@ pre {
 
     .content-box {
         width: 500px;
-        height: 400px;
+        height: 500px;
         padding: 8px;
     }
 
@@ -264,10 +298,6 @@ pre {
 
     #second-container {
         height: 500px;
-    }
-
-    #second-container .content-box {
-        margin-top: 45px;
     }
 
 }

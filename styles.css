@@ -26,7 +26,8 @@ body {
   flex-direction: column; }
 
 .sayshannon-logo-pt1 {
-  color: #03f9c8; }
+  color: #03f9c8;
+  margin-bottom: 0px; }
 
 .sayshannon-logo-pt2 {
   color: black; }
@@ -54,6 +55,9 @@ body {
 
 .no-m-b {
   margin-bottom: 0px !important; }
+
+.no-m-t {
+  margin-top: 0px !important; }
 
 #first-container {
   width: 100%;
@@ -102,6 +106,13 @@ body {
   margin-top: 20px; }
 
 #projects-nav:hover > .projects-box {
+  display: block !important; }
+
+.contact-box {
+  display: none;
+  margin-top: 20px; }
+
+#contact-nav:hover > .contact-box {
   display: block !important; }
 
 .project {
@@ -183,6 +194,22 @@ pre {
   font-weight: 400;
   line-height: 18.5714px; }
 
+#language-toggle {
+  cursor: pointer; }
+
+#language-toggle img {
+  margin-top: 13px;
+  width: 40px;
+  height: 40px; }
+
+#language-toggle-es {
+  cursor: pointer; }
+
+#language-toggle-es img {
+  margin-top: 15px;
+  width: 36px;
+  height: 36px; }
+
 @media (max-width: 992px) {
   .content-box {
     padding: 8px; } }
@@ -200,7 +227,7 @@ pre {
 
   .content-box {
     width: 500px;
-    height: 400px;
+    height: 500px;
     padding: 8px; }
 
   p {
@@ -211,9 +238,6 @@ pre {
     line-height: 25px !important; }
 
   #second-container {
-    height: 500px; }
-
-  #second-container .content-box {
-    margin-top: 45px; } }
+    height: 500px; } }
 
 /*# sourceMappingURL=styles.css.map */
