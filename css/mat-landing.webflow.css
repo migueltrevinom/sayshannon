@@ -327,6 +327,10 @@ img {
   margin-bottom: 24px;
 }
 
+.paragraph-manrope.align-left.dark_black-color.paragraph-responsive {
+  color: #526965;
+}
+
 .paragraph-manrope.text-footer {
   font-weight: 800;
   text-align: right;
@@ -904,6 +908,14 @@ img {
 
 .dark_black-color {
   color: #051b17;
+}
+
+.dark_black-color.responsive-h6 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
 }
 
 .primary-color {
